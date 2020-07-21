@@ -4,8 +4,11 @@ Title: Tidyverse inspired simulation of stochastic processes
 Version: 0.0.1
 Author: Pedro Cavalcante
 Maintainer: Pedro Cavalcante <pedrocolrj@gmail.com>
+Depends: R (>= 3.1.0)
 Description: 
     Expands base R utilities to simulate stochastic processes in a tidyverse-inspired grammar, aiming at conciseness.
-License: MIT License
+License: GPL-3 
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.1.0
+Imports: dplyr, purrr, rlang, tibble
