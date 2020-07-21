@@ -25,6 +25,7 @@
 #' 
 #' 
 
+
 white_noise <- function(.distfn = "rnorm", n = NULL, y0 = 0, ...) {
 
   if(is_data_context() == TRUE) {
@@ -37,11 +38,9 @@ white_noise <- function(.distfn = "rnorm", n = NULL, y0 = 0, ...) {
 
   }
 
-  shocks <- eval(call(.distfn, list(n, ...)))
+  shocks <- eval(call(.distfn, list(n, list(...))))
 
-  purrr::accumulate(shocks,
-                    .init = y0,
-                    `+`)
+  purrr::accumulate(shocks, .init = y0, `+`)
 
 }
 
