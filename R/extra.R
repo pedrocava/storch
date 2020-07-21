@@ -8,9 +8,9 @@
 
 is_data_context <- function() {
 
-  calling <- possibly(dplyr::n, otherwise = "error")
+  calling <- possibly(dplyr::n, otherwise = NULL)
 
-  if_else(calling == "error",
+  if_else(is.null(calling()),
           FALSE,
           TRUE)
 
