@@ -7,10 +7,12 @@
 white_noise(.distfn = "rnorm", n = NULL, y0 = 0, ...)
 }
 \arguments{
-\item{.distfn}{What function should be used to draw the innovations from? Must be a string. 
+\item{.distfn}{What function should be used to draw the innovations from? 
+Must be a string. 
 Defaults to `"rnorm"`, should work with any `r_` compatible function.}
 
-\item{n}{sample size, only has to be specified if function is called outside of a tibble or similar data context}
+\item{n}{sample size, only has to be specified if function is called 
+outside of a tibble or similar data context}
 
 \item{y0}{The initial condition}
 
