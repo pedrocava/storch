@@ -1,0 +1,3 @@
+## env
+
+Sys.setenv(CODECOV_TOKEN="514c0739-1d67-4167-829f-d038f523544c")

@@ -1,2 +1,14 @@
-codecov:
-  token: 514c0739-1d67-4167-829f-d038f523544c
+comment: false
+
+coverage:
+  status:
+    project:
+      default:
+        target: auto
+        threshold: 1%
+        informational: true
+    patch:
+      default:
+        target: auto
+        threshold: 1%
+        informational: true
