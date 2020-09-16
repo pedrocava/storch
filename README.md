@@ -5,4 +5,4 @@
 [![codecov](https://codecov.io/gh/pedrocava/storch/branch/master/graph/badge.svg?token=Clrvs5FiT0)](https://codecov.io/gh/pedrocava/storch)
 
 
-Tidyverse-inspired, functional simulation of stochastic processes in R. Still highly experimental.
+Tibble friendly, cleverly impure functions to simulate stochastic processes.
